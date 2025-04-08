@@ -2,18 +2,7 @@
 
 Welcome to **ACD (Auto Code Docs)** – an intelligent system that automatically generates beautiful, human-readable documentation for your Python code using powerful LLMs and deploys it to GitHub Pages.
 
-## 📸 Project Preview
-<p align="center"> <img src="docs/assets/screenshot.png" alt="Site Screenshot" width="80%" /> </p>
-
----
-
-## 🎞️ Live Demo (GIF)
-
-Here’s how the system works from code to docs!
-
-<p align="center"> <img src="docs/assets/demo.gif" alt="Demo GIF" width="70%" /> </p>
-
----
+--- 
 ## 📌 Overview
 
 ACD (Automatic Code Documentation) is a smart system that uses an LLM (like CodeLlama) to analyze your Python source code and generate clean, readable Markdown documentation. This documentation is then published as a beautiful static site using MkDocs with the Material theme, and hosted for free via GitHub Pages.
@@ -47,6 +36,8 @@ ACD (Automatic Code Documentation) is a smart system that uses an LLM (like Code
 
 ## 🗂️ Project Structure
 
+
+
 ADC/
 │
 ├── .github/workflows/deploy.yml   # GitHub Action for CI/CD
@@ -66,12 +57,13 @@ ADC/
 ├── mkdocs.yml                     # MkDocs configuration file
 └── README.md                      # You're here!
 
+
+
 ---
 
-## 🚀 Live Site
-📄 https://aoeukun.github.io/ACD
-
-Hosted via GitHub Pages and updated automatically on every push!
+## 🌐 Live Site
+👉 Visit the auto-updated site here:
+📎 https://aoeukun.github.io/ACD
 
 ---
 ## 🛠️ How It Works
