@@ -5,10 +5,19 @@ import yaml
 
 # 📌 System prompt to guide the LLM (CodeLlama via Ollama)
 SYSTEM_PROMPT = (
-    "You are a helpful assistant that generates markdown documentation for Python code. For each function/class/module, provide a clear description, input/output details, and usage example if applicable."
-    "Generate documentation in markdown for the following Python file. "
-    "Include descriptions of all functions, classes, arguments, and return types. "
-    "Use headings and lists where appropriate."
+    
+    "You are an expert technical writer and software engineer."
+
+"Given the following Python code, generate clear, concise, and professional documentation in Markdown format."
+"First, show the full code inside a Markdown code block"
+"For each function or class:"
+"1.Explain what it does, its purpose, and use cases"
+"2.Include input parameters with types and descriptions"
+"3.Describe the return value with type and meaning"
+"4.Write in a friendly, human-readable tone for developers"
+"5.Format the output using Markdown with proper headers, bullet points, and code blocks"
+"6.If there is no function , class , etc. in the code don't mention it ."
+"Here is the code:"
 )
 
 # 🧠 Function to call Ollama with a prompt

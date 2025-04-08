@@ -4,7 +4,6 @@ theme:
 nav:
 - Home: index.md
 - Generated Docs:
-  - Four: generated/four.md
-  - One: generated/one.md
-  - Three: generated/three.md
-  - Two: generated/two.md
+  - Number_Guessing: generated/Number_guessing.md
+  - Print_Name: generated/Print_name.md
+  - Check_Even_Odd: generated/check_even_odd.md
