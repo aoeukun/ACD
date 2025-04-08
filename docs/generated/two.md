@@ -1,65 +1,67 @@
 # Documentation for `two.py`
 
 
-# Documentation for `greeting.py`
+# Hello World in Python
 
-This file provides a simple greeting program that asks the user for their name and then prints a personalized greeting.
+This script prints a simple "Hello, [Name]!" message to the console, where [Name] is the user's input.
+
+## Inputs
+
+* `name`: The user's input as a string, which will be used as the name in the printed message.
+
+## Outputs
+
+* None (this script does not return any value)
+
+## Usage Example
+
+1. Open a terminal or command prompt and navigate to the directory containing this script.
+2. Run the script by typing `python hello_world.py`
+3. Enter your name when prompted, and press enter.
+4. The script will print "Hello, [Name]!" to the console, where [Name] is your input.
 
 ## Functions
 
-### main()
-
-The `main()` function is the entry point of the program. It takes no arguments and returns nothing.
-
-**Input:** None
-
-**Output:** None
-
-**Usage example:**
-```python
-from greeting import main
-
-main()
-```
+There are no functions in this script.
 
 ## Classes
 
-There are no classes in this file.
+There are no classes in this script.
 
 ## Modules
 
-There are no modules in this file.
+This script uses the `input` and `print` functions from Python's standard library.
 
-## Arguments
+# Hello World in Python (Advanced)
 
-The following arguments are passed to the `greeting` function:
+This script prints a more complex "Hello, [Name]!" message to the console, where [Name] is the user's input. The message includes their age, as well as a greeting based on whether or not they have been married.
 
-* `name`: The name of the person to greet. This is a string that represents the user's input.
+## Inputs
 
-**Input:** A string representing the user's input.
+* `name`: The user's input as a string, which will be used as the name in the printed message.
+* `age`: The user's age as an integer, which will be used to determine the greeting.
+* `married`: A boolean value indicating whether or not the user has been married (True if they have, False otherwise).
 
-**Output:** None
+## Outputs
 
-**Usage example:**
-```python
-from greeting import main
+* None (this script does not return any value)
 
-main(name="Alice")
-```
+## Usage Example
 
-## Return types
+1. Open a terminal or command prompt and navigate to the directory containing this script.
+2. Run the script by typing `python hello_world_advanced.py`
+3. Enter your name, age, and marriage status when prompted, and press enter.
+4. The script will print a more complex "Hello, [Name]!" message to the console, where [Name] is your input.
 
-The `greeting` function returns nothing, as it only prints a message to the console.
+## Functions
 
-**Input:** None
+There are no functions in this script.
 
-**Output:** None
+## Classes
 
-**Usage example:**
-```python
-from greeting import main
+There are no classes in this script.
 
-result = main()
-print(result)  # Outputs "Hello, Alice!"
-```
+## Modules
+
+This script uses the `input` and `print` functions from Python's standard library.
 

@@ -2,38 +2,41 @@
 
 
 Guessing Game
--------------
+------------
 
-This code is a simple guessing game where the user tries to guess a random number between 1 and 10. The game will end once the user correctly guesses the number or has exhausted all attempts.
+### Description
+
+This is a simple guessing game that generates a random number between 1 and 10 and asks the user to guess it. If the user's guess is correct, they win the game. Otherwise, the program will print the correct answer.
 
 ### Functions
 
-The following functions are used in this code:
+#### `guessing_game()`
 
-* `random.randint(1, 10)`: This function is used to generate a random integer between 1 and 10 inclusive. The return value is stored in the variable `secret_number`.
-* `input`: This function is used to get input from the user. In this case, it is used to ask the user to guess the number. The input is then converted to an integer using the `int` constructor.
-* `print`: This function is used to print messages to the console. In this case, it is used to display the result of the user's guess.
+This function is the main entry point of the game. It generates a random number between 1 and 10, and then asks the user to guess it using the `input()` function. The user's guess is then checked against the generated number using an `if` statement. If the guess is correct, the program will print "You guessed it right!" and exit. Otherwise, the program will print a message indicating the correct answer.
+
+### Classes
+
+There are no classes defined in this code snippet.
+
+### Modules
+
+The following modules are imported:
+
+* `random`: This module is used to generate a random number between 1 and 10.
 
 ### Arguments
 
-The following arguments are used in this code:
+None
 
-* `secret_number`: This variable stores the randomly generated number between 1 and 10.
-* `guess`: This variable stores the user's guess of the number.
+### Return Types
 
-### Return types
+None
 
-The return type of this code is a string that indicates whether the user correctly guessed the number or not. If the user correctly guesses the number, it will print "You guessed it right!". Otherwise, it will print "Oops! The correct number was {secret_number}."
+### Usage Example
 
-### Usage example
-
-Here is an example usage of this code:
+To play the guessing game, simply execute the `guessing_game()` function without any arguments. For example:
 ```python
->>> secret_number = random.randint(1, 10)
->>> guess = int(input("Guess a number between 1 and 10: "))
->>> if guess == secret_number:
-...     print("You guessed it right!")
-... else:
-...     print(f"Oops! The correct number was {secret_number}.")
+guessing_game()
 ```
+This will generate a random number between 1 and 10, ask the user to guess it using the `input()` function, and then check the user's answer using an `if` statement. If the guess is correct, the program will print "You guessed it right!" and exit. Otherwise, the program will print a message indicating the correct answer.
 

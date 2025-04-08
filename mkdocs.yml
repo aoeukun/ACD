@@ -1,11 +1,10 @@
 site_name: Auto Code Docs
-
 theme:
   name: material
-
 nav:
-  - Home: index.md
-  - Generated Docs:
-      - One: generated/one.md
-      - Two: generated/two.md
-      - Three: generated/three.md
+- Home: index.md
+- Generated Docs:
+  - Four: generated/four.md
+  - One: generated/one.md
+  - Three: generated/three.md
+  - Two: generated/two.md
