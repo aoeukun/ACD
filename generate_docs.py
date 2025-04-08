@@ -43,3 +43,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import os
+
+def update_index():
+    doc_files = [f for f in os.listdir("docs") if f.endswith(".md") and f != "index.md"]
+    with open("docs/index.md", "w", encoding="utf-8") as index_file:
+        index_file.write("# 📚 Code Documentation Index\n\n")
+        index_file.write("Generated documentation files:\n\n")
+        for doc in sorted(doc_files):
+            name = os.path.splitext(doc)[0].replace("_", " ").title()
+            index_file.write(f"- [{name}]({doc})\n")
+
+update_index()
+

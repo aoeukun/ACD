@@ -1,20 +1,39 @@
 # Documentation for `one.py`
 
 
-### add() function
+# Documentation for Python File
 
-The `add()` function takes two arguments of type `int` or `float`, and returns their sum.
+## Functions
 
-**Inputs:**
+### `add`
 
-* `a`: The first number to be added.
-* `b`: The second number to be added.
-
-**Output:** The sum of `a` and `b`.
-
-**Usage example:**
+* Description: Add two numbers.
+* Input:
+	+ `a`: The first number to add.
+	+ `b`: The second number to add.
+* Output: The sum of `a` and `b`.
+* Usage Example:
 ```python
-result = add(3, 5)
-print(result) # Output: 8
+result = add(2, 3)
+print(result) # prints 5
 ```
+
+## Classes
+
+### `Greeter`
+
+* Description: A class that represents a greeter.
+* Constructor Arguments:
+	+ `name`: The name of the person to be greeted.
+* Methods:
+	+ `greet()`: Returns a string greeting the person with the provided name.
+* Usage Example:
+```python
+greeter = Greeter("Alice")
+print(greeter.greet()) # prints "Hello, Alice!"
+```
+
+## Modules
+
+* No modules are imported or used in this file.
 

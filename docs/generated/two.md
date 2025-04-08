@@ -1,26 +1,23 @@
 # Documentation for `two.py`
 
 
-This Python code prompts the user to enter their name, and then prints a greeting message with the user's name included. Here's the documentation for this code:
+# My Module
 
-### Function/Class: `input()`
+This module provides a simple way to print a greeting message to the user.
 
-The `input()` function is used to read a line of text from standard input. It returns a string representing the user's input, or `None` if the user enters an empty line.
+## Functions
 
-#### Input Details:
+### `greet(name)`
 
-* None
+* `name`: The name of the person to greet.
 
-#### Output Details:
+Print a greeting message to the user with the given `name`.
 
-* A string representing the user's input, or `None` if the user enters an empty line.
-
-#### Usage Example:
-
+**Usage:**
 ```python
-name = input("What is your name? ")
-print("Hello, " + name + "!")
-```
+from my_module import greet
 
-In this example, we use the `input()` function to prompt the user for their name, and then print a greeting message with the user's name included. The `print()` function is used to display the greeting message on the console.
+greet("Alice")
+# Output: "Hello, Alice!"
+```
 

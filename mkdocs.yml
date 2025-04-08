@@ -5,4 +5,4 @@ theme:
 nav:
   - Home: index.md
   - Generated Docs:
-      - Example: generated/example.md
+     generated/docs.md
