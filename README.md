@@ -36,28 +36,7 @@ ACD (Automatic Code Documentation) is a smart system that uses an LLM (like Code
 
 ## 🗂️ Project Structure
 
-
-
-ADC/
-│
-├── .github/workflows/deploy.yml   # GitHub Action for CI/CD
-├── docs/
-│   ├── index.md                   # Homepage content
-│   └── generated/
-│       ├── one.md                 # Generated docs from src/one.py
-│       ├── two.md
-│       └── three.md
-├── site/                          # MkDocs build output (auto-generated)
-├── src/
-│   ├── one.py                     # Source code files
-│   ├── two.py
-│   └── three.py
-├── venv/                          # Python virtual environment (optional)
-├── generated_docs.py              # Main script for LLM-based documentation
-├── mkdocs.yml                     # MkDocs configuration file
-└── README.md                      # You're here!
-
-
+![Project Structure](assets/project_structure.png)
 
 ---
 
