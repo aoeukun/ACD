@@ -76,12 +76,16 @@ ACD (Automatic Code Documentation) is a smart system that uses an LLM (like Code
    git clone https://github.com/aoeukun/ACD.git
    cd ACD
 2. **Install dependencies**
+    ```bash
     pip install mkdocs mkdocs-material
 3. **Start Ollama with CodeLlama**
+    ```bash
     ollama run codellama
 4. **Generate Docs**
+    ```bash
     python generate_docs.py
 5. **mkdocs serve**
+    ```bash
     mkdocs serve
 6. **🚀 Deploy to GitHub Pages**
 
