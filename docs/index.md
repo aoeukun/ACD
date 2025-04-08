@@ -1,4 +1,4 @@
-# 🤖 Auto Code Docs
+# 🤖 Automatic Code Documentation
 
 Welcome to **Auto Code Docs** — where your code meets intelligence.
 
@@ -8,8 +8,10 @@ Imagine a world where your Python codebase *documents itself* — beautifully, i
 
 ## ✨ Why This Project?
 
-> 🔥 "90% of developers hate writing docs. The other 10% are lying." – Every Developer Ever
+<br>
+ 🔥 **"90% Of developers hate writing docs. The other 10% are lying." – Every Developer Ever**
 
+<br>
 Writing documentation is tedious. But it's essential for collaboration, onboarding, and maintaining high-quality software. So we asked:
 
 > **What if your code could explain itself?**
@@ -60,12 +62,6 @@ Navigate through:
 
 ---
 
-## 🚀 Live Preview
-
-🌐 **Check it out now:**  
-[https://aoeukun.github.io/ACD/](https://aoeukun.github.io/ACD/)
-
----
 
 ## 🛠 Tech Stack
 
@@ -79,11 +75,6 @@ Navigate through:
 
 ---
 
-## 📸 Sneak Peek
-
-![Project Preview](assets/logo.png)
-
----
 
 ## ❤️ Made With Passion
 
@@ -92,3 +83,6 @@ This project isn’t just about automation — it’s about **empowering develop
 > Because when your code can speak for itself... you just code.
 
 ---
+<div style="text-align: right; font-style: italic; color: gray; font-size: 0.9em;">
+  — Created by S.Sandeep Kumar
+</div>

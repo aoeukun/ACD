@@ -1,4 +1,4 @@
-site_name: Auto Code Docs
+site_name: Automatic Code Documentation
 theme:
   name: material
 nav:
