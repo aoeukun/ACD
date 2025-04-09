@@ -1,55 +1,73 @@
 # Documentation for `Number_guessing.py`
 
-
-Number Guessing Game
-=====================
-
-This is a simple game where the user has to guess a random number between 1 and 10. The game checks if the user's guess is equal to the secret number, and if it is, it prints out "You guessed it right!", otherwise it prints out "Oops! The correct number was [secret_number]."
-
-The purpose of this program is to teach users about basic programming concepts such as variables, input/output, control structures (if-else), and functions. It also demonstrates how to generate random numbers using the `random` module in Python.
-
-Use Cases
-----------
-
-1. Users can use this game to practice their guessing skills and learn about basic programming concepts.
-2. Teachers can use this program as a teaching tool to help students understand the basics of programming, such as variables, input/output, control structures, and functions.
-3. People who enjoy games can use this program to challenge themselves with different random numbers each time they play.
-
-Input Parameters
----------------
-
-The input parameters for this program are:
-
-* `secret_number`: a random number between 1 and 10, generated using the `random.randint` function.
-* `guess`: an integer entered by the user to guess the secret number.
-
-Return Value
-------------
-
-If the user's guess is equal to the secret number, the program will print out "You guessed it right!", otherwise it will print out "Oops! The correct number was [secret_number]."
-
-Format of Output
------------------
-
-The output of this program is a simple message that indicates whether the user has guessed the correct number or not. If the user's guess is equal to the secret number, the program will print out "You guessed it right!", otherwise it will print out "Oops! The correct number was [secret_number]."
-
-Code Block
------------
-
-Here is the full code for this program:
+Here are the generated docstrings for each function and class in the code:
 ```python
+# Number guessing game
+
 import random
 
 # Generate a random number between 1 and 10
-secret_number = random.randint(1, 10)
+def generate_random_number():
+    """
+    Generates a random number between 1 and 10.
+    
+    Returns:
+        int: The generated random number.
+    """
+    return random.randint(1, 10)
 
 # Ask the user to guess the number
-guess = int(input("Guess a number between 1 and 10: "))
+def ask_user_to_guess():
+    """
+    Asks the user to guess a number between 1 and 10.
+    
+    Returns:
+        int: The guessed number.
+    """
+    return int(input("Guess a number between 1 and 10: "))
 
 # Check the guess
-if guess == secret_number:
-    print("You guessed it right!")
-else:
-    print(f"Oops! The correct number was {secret_number}.")
+def check_guess(secret_number, guess):
+    """
+    Checks if the guess is correct or not.
+    
+    Args:
+        secret_number (int): The random number generated.
+        guess (int): The user's guess.
+    
+    Returns:
+        bool: True if the guess is correct, False otherwise.
+    """
+    return guess == secret_number
+
+# Print the result of the guess
+def print_result(correct, secret_number):
+    """
+    Prints the result of the guess.
+    
+    Args:
+        correct (bool): True if the guess is correct, False otherwise.
+        secret_number (int): The random number generated.
+    """
+    if correct:
+        print("You guessed it right!")
+    else:
+        print(f"Oops! The correct number was {secret_number}.")
+
+# Main function
+def main():
+    """
+    Main function of the program.
+    
+    Returns:
+        None
+    """
+    secret_number = generate_random_number()
+    guess = ask_user_to_guess()
+    correct = check_guess(secret_number, guess)
+    print_result(correct, secret_number)
+
+if __name__ == "__main__":
+    main()
 ```
 
